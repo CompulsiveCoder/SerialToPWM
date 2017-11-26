@@ -1,3 +1,3 @@
-echo "Uploading to port /dev/$1"
+echo "Uploading to port $1"
 
-pio run --target upload --environment uno --upload-port /dev/$1
+pio run --target upload --environment uno --upload-port $1
